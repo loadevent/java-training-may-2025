@@ -4,7 +4,6 @@ import java.util.Random;
 
 public class LoopTerminationTechniques {
     public static void main(String[] args) {
-
         //exit the loop
         for (int i = 1; i <= 10; i++) {
             System.out.print(i + "  ");

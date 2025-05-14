@@ -1,10 +1,15 @@
 package Chapter1;
+import Chapter4.VoidMethods;
+
 /*
 This class shows different ways of
 declaring variables
  */
 public class DeclaringVariables {
     public static void main(String[] args) {
+
+        VoidMethods.displayHeading();
+
         //1. declare
         //datatype variable name
         String firstName;

@@ -1,9 +1,14 @@
 package Chapter1;
 
+import Chapter4.VoidMethods;
+import Chapter4.ValueMethods;
+
 import javax.swing.*;
 
 public class UsingDialogBox {
     public static void main(String[] args) {
+        //VoidMethods.displayHeading();
+        JOptionPane.showMessageDialog(null, ValueMethods.getWelcomeMessage());
         //1. declare
         String firstname;
         int age;
