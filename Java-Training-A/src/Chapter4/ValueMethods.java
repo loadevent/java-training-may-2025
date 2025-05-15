@@ -1,5 +1,7 @@
 package Chapter4;
 
+import java.util.Scanner;
+
 /*This class demonstrate methods that returns values*/
 public class ValueMethods {
     public static void main(String[] args) {
@@ -13,10 +15,15 @@ public class ValueMethods {
     //Method to calculate and return the sum of 2 integers
     //access modifier   static    return type   method name()
     private static int getSum(){
-        int num1 = 10;
-        int num2 = 15;
+        Scanner sc = new Scanner(System.in);
+        int num1, num2, sum;
 
-        int sum = num1 + num2;
+        System.out.print("Enter number 1: ");
+        num1 = sc.nextInt();
+        System.out.print("Enter number 2: ");
+        num2 = sc.nextInt();
+
+        sum = num1 + num2;
 
         return sum;
     }
